@@ -1,0 +1,286 @@
+* {
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Raleway', sans-serif; */
+}
+
+header {
+    height: 538px;
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center -140px;
+    margin: -10px 5px 0px -10px;
+}
+
+ul {
+    /* border: 2px solid red; */
+    width: 500px;
+    position: absolute;
+    right: 210px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+#div1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 158px;
+    left: 40%;
+}
+
+header h1 {
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 24%;
+    font-size: 35px;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+#div2 {
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 325px;
+    left: 24%;
+    border-radius: 10px;
+    width: 760px;
+}
+
+#div2 select {
+    border: 2px solid white;
+    border-color: white rgb(205, 203, 203) white white;
+    /* padding: 18px; */
+    width: 230px;
+    margin: 10px;
+    /* border-radius: 10px; */
+    font-size: 15px;
+}
+
+#div2 img {
+    margin-bottom: -10px;
+    margin-left: 5px;
+}
+
+#div2 input {
+    border: 2px solid white;
+    padding: 16px 0px;
+    font-size: 15px;
+    width: 350px;
+}
+section {
+    margin: 40px 0px 0px 200px;
+    width: 1150px;
+}
+.div3{
+    border-radius: 10px;
+    display: inline-block;
+    width: 350px;
+    height: 240px;
+    border: 1px solid rgb(213, 215, 215);
+    margin: 0px 15px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+.div3 h1,.div3 h3,.div3 p{
+    padding: 0px 0px 0px 20px;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+.div3 h1{
+    border-radius: 10px;
+    height: 150px;
+    margin: 0px 0px ;
+}
+#div4:hover,#div5:hover,#div6:hover{
+    box-shadow: 0px 0px 15px rgb(143, 141, 141);
+}
+#div4 h1{
+    background-image: url(https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*);
+    background-repeat: no-repeat;
+    background-size: 360px 300px;
+    background-position:-5px -60px;
+}
+#div5 h1{
+    background-image: url(https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*);
+    background-repeat: no-repeat;
+    background-size: 360px 300px;
+    background-position:-5px -60px;
+}
+#div6 h1{
+    background-image: url(https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*);
+    background-repeat: no-repeat;
+    background-size: 360px 300px;
+    background-position:-5px -60px;
+}
+main{
+    position: relative;
+    top: 30px;
+    margin: 50px 0px 0px 196px;
+    width: 1150px;
+}
+main h1{
+    font-size: 38px;
+    font-weight: normal;
+    margin-bottom: -10px;
+    
+}
+main p{
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(91, 89, 89);
+}
+#maindiv1{
+    display: inline-block;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+}
+#maindiv1 div{
+    display: inline-block;
+    height: 316px;
+    width: 268px;
+    margin: 0px 4px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+main h2{
+    position: relative;
+    top: 250px;
+    left: 10px;
+    color: white;
+    font-weight: normal;
+    font-size: 19px;
+}
+#div1h1{
+    background-image: url(https://b.zmtcdn.com/data/collections/5a235455020ab591941f86eadecd111c_1674845310.jpg?output-format=webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#div1h2{
+    background-image: url(https://b.zmtcdn.com/data/collections/740c74e2e5d27bbbfdc0d722d9735d07_1674845423.jpg?output-format=webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#div1h3{
+    background-image: url(https://b.zmtcdn.com/data/collections/85e2a939e3081d0c056a819edac0f26e_1676541331.jpg?output-format=webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#div1h4{
+    background-image: url(https://b.zmtcdn.com/data/collections/b2f4b4e29c3cee6a3e5820944a71113a_1674844520.jpg?output-format=webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+article{
+    position: relative;
+    top: 100px;
+    margin: 50px 0px 0px 196px;
+    width: 1150px;
+}
+article h1{
+    margin: 2px 0px 20px 10px;
+    font-size: 35px;
+    font-weight: normal;
+}
+article input{
+    padding: 20px 90px 20px 10px ;
+    margin: 10px 0px 40px 8px;
+    border: 1px solid rgb(187, 186, 186);
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+}
+#get{
+    position: relative;
+    top: 185px;
+    /* width: 1150px; */
+    background-color: rgb(251, 249, 247);
+    height: 480px;
+}
+#img1{
+    position: relative;
+    top: 120px;
+    left: 375px;
+}
+#get div{
+    position: relative;
+    top: -220px;
+    left: 45%;
+    font-weight: normal;
+    width: 450px;
+}
+#exp{
+    position: relative;
+    top: 200px;
+    margin: 50px 0px 0px 196px;
+    width: 1150px;
+}
+#exp select{
+    border-radius: 10px;
+    border: 1px solid rgb(215, 213, 213); 
+    padding: 25px; 
+    margin: 0px 25px 20px 0px;
+    font-size: 18px ;
+    width: 1100px;
+}
+footer{
+    position: relative;
+    top: 250px;
+    margin: 50px 20px 0px 196px;
+    width: 1250px;
+    /* border: 2px solid red; */
+    height: 400px;
+    cursor: pointer;
+    
+}
+footer div{
+    display: inline-block;
+    /* border: 2px solid rgb(0, 8, 255); */
+    margin: 0px 30px 10px 0px;
+    color: gray;
+    padding: 20px;
+    height: 200px;
+}
+#foo2{
+    position: relative;
+    top: -25px;
+    left: -38px;
+}
+#foo3{
+    position: relative;
+    top: -44px;
+    left: -38px;
+}
+
+#foo4{
+    position: relative;
+    top: -23px;
+    left: -38px;
+    margin-left: 30px;
+}
+#foo5{
+    position: relative;
+    top: -65px;
+    left: -38px;
+    margin-left: 30px;
+}
+#foo6{
+    position: relative;
+    top: -35px;
+    left: -38px;
+}
